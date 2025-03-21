@@ -58,5 +58,5 @@ streamlit run app.py
 This project is licensed under the **MIT License**.
 
 ---
-💡 **Author**: [Your Name](https://github.com/yourusername)  
+💡 **Author**: [Pratibha Singh](https://github.com/Pratibha-25)
 🌟 Star this repository if you found it useful!
