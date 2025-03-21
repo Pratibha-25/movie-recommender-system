@@ -14,8 +14,8 @@ This project implements a **Content-Based Movie Recommender System** that sugges
 - **Python** (Backend processing)
 - **pandas** (Data handling)
 - **scikit-learn** (TF-IDF and cosine similarity)
-- **Flask** (Web app - optional)
-
+- **Streamlit** (Web app framework)
+- 
 ## 📂 Dataset
 We use the **TMDB 5000 Movies Dataset**, which includes:
 - `tmdb_5000_movies.csv`: Contains movie metadata (title, genres, overview, etc.).
@@ -42,3 +42,21 @@ The datasets are merged using the `id` column to enrich movie metadata.
 - **Load Data**: `pandas` is used to read movie and credits datasets.
 - **Merge Data**: The movies and credits datasets are combined using `id`.
 - **Text Processing**: Movie overviews a
+
+## 📌 Running the Streamlit Web App
+To start the **Movie Recommender System**, run:
+```bash
+streamlit run app.py
+```
+
+## 📌 Usage
+1. Select a movie from the dropdown menu.
+2. Click the **Recommend** button.
+3. The system will display **5 similar movies**.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+💡 **Author**: [Your Name](https://github.com/yourusername)  
+🌟 Star this repository if you found it useful!
