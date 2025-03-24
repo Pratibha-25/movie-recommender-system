@@ -1,7 +1,7 @@
 # 🎬 Movie Recommender System (Content-Based)
 
 ## 📌 Overview
-This project implements a **Content-Based Movie Recommender System** that suggests movies based on their similarity to a given movie. The system utilizes **cosine similarity** to find and recommend movies with similar descriptions.
+This project implements a **Content-Based Movie Recommender System** that suggests movies based on their similarity to a given movie. It processes movie descriptions and uses cosine similarity to find the most relevant recommendations. The system is deployed as an interactive Streamlit web app for easy access.
 
 ## 🚀 Features
 - 📌 **Content-Based Filtering** using movie descriptions.
